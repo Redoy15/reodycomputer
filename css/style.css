@@ -1,0 +1,43 @@
+body{
+    background: url("../image/old-brick-black-color-wall-260nw-1605128917.webp");
+    background-size: 100%;
+}.menu{
+    width: 90%;
+    margin: 0 auto;
+    height: 100px;
+
+}
+.menu ul{
+    padding: 0px;
+}
+.menu ul li{
+    float: left;
+    background-color: blueviolet;
+    list-style: none;
+    width: 20%;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    transition: .5s;
+
+}
+.menu a{
+    color: aliceblue;
+    text-decoration: none;
+    display: ;
+
+}
+.menu ul li ul{
+    display: none;
+
+}
+.menu ul li ul li{
+    width: 100%;
+}
+
+.menu ul li:hover >ul{
+    display: block;
+} 
+.menu ul li:hover{
+    background-color: red;
+}
